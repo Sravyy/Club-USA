@@ -1,5 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Hind+Madurai|Oswald|Pragati+Narrow|Voltaire');
+
+
+h2{
+  text-align: center;
+}
 
 .size{
-  font-family: 'Satisfy', cursive;
+  font-family: 'Pragati Narrow', sans-serif;
+  font-size: 27px;
 }

@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Madurai|Oswald|Pragati+Narrow|Voltaire');
+
+body{
+  /* font-family: 'Oswald', sans-serif;
+  font-family: 'Voltaire', sans-serif;
+  font-family: 'Hind Madurai', sans-serif; */
+  font-family: 'Pragati Narrow', sans-serif;}
 .footer {
   position: fixed;
   bottom: 0;
@@ -12,6 +19,9 @@
   color: white;
 }
 
+.rights{
+  float:right;
+}
 nav{
   background-color: purple;
 }

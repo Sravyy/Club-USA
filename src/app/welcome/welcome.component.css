@@ -7,6 +7,11 @@ body {
   background: #333;
 }
 
+h1, h2, h3, p{
+  text-align: center;
+  font-weight: bold;
+}
+
 #wrapper {
   width: 950px;
   margin: 55px auto 0;
@@ -16,7 +21,7 @@ body {
   text-align: center;
   color: #fff;
   font-size: 2em;
-  font-family: "Arial Black", sans-serif;
+  /* font-family: "Arial Black", sans-serif; */
   text-shadow: 2px 2px #555;
   margin: 36% 0;
 }
@@ -28,9 +33,9 @@ body {
   width: 900px;
   height: 400px;
   /* animation */
-  -webkit-animation: slider 11s infinite ease-in-out;
+  -webkit-animation: slider 7s infinite ease-in-out;
   -webkit-animation-direction: alternate;
-  animation: slider 11s infinite ease-in-out;
+  animation: slider 7s infinite ease-in-out;
   animation-direction: alternate;
 }
 
