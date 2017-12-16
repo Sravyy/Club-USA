@@ -1,0 +1,12 @@
+<h2>Classes</h2>
+
+<div *ngFor="let class of classes | async"  class="panel panel-default">
+  <div class="panel-body">
+    <h3 (click)="goToDetailPage(class)"><em>{{class.title}}</em> by {{class.instructor}}</h3>
+    <div *ngIf="currentRoute === '/admin'">
+      {{class.description}}
+      <hr>
+      <app-edit-class [selectedClass]="class"></app-edit-class>
+    </div>
+  </div>
+</div>

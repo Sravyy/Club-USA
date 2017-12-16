@@ -1,0 +1,13 @@
+<h3>Edit Class Details</h3>
+
+<label>New Class Title:</label>
+<input [(ngModel)] = "selectedClass.title">
+<br>
+<label>New Description:</label>
+<input [(ngModel)] = "selectedClass.description">
+<br>
+<label>New Instructor Name:</label>
+<input [(ngModel)] = "selectedClass.instructor">
+<br>
+<button (click)="beginUpdatingClass(selectedClass)">Update</button>
+<button (click)="beginDeletingClass(selectedClass)">Delete</button>
