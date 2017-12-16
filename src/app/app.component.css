@@ -44,9 +44,10 @@ li a:hover:not(.active) {
 }
 
 .img{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.5)), url("https://ndptessex.files.wordpress.com/2016/11/beachbootcamp.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(14, 50, 255, 0.24)), url("https://bankershallclub.com/wp-content/uploads/2015/10/BHC_Group_Fitness_Page_1600x543.jpg");
   height: 60vh;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
+  background-size: 1600px;
 
 }
